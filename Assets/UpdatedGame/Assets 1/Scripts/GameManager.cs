@@ -83,6 +83,7 @@ public class GameManager : MonoBehaviour
 			// Reset the score
 			scoreUITextGO.GetComponent<GameScore> ().Score = 0;
 
+                buttonMain.SetActive(false);
 			// hide next level button
 			nextLevelButton.SetActive(false);
 
